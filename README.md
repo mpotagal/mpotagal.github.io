@@ -1,1 +1,152 @@
-# mpotagal.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Michael Potagal Resume</title>
+  <style>
+    body {
+      font-family: Calibri, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      line-height: 1.5;
+      color: #000;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 5px;
+    }
+
+    .contact {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin-top: 30px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    ul {
+      margin-top: 5px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Michael Potagal</h1>
+  <div class="contact">
+    <a href="https://linkedin.com/in/michaelpotagal" target="_blank">linkedin.com/in/michaelpotagal</a>
+  </div>
+
+  <h2>Education</h2>
+  <div class="entry-header">
+    <div>Bentley University, Waltham, MA</div>
+    <div>December 2025</div>
+  </div>
+  <p>Candidate for Bachelor of Science in Data Analytics, Business Studies Minor</p>
+
+  <h2>Relevant Coursework</h2>
+
+  <div class="entry-header">
+    <div>Hierarchical Cluster Analysis of Vehicle Insurance Policies in Europe</div>
+    <div>Fall 2024</div>
+  </div>
+  <ul>
+    <li>Conducted cluster analysis on 23,000+ insurance policies using hierarchical clustering methods (Ward’s Method selected as optimal).</li>
+    <li>Identified three distinct policyholder segments (Millennials, Boomers, Gen-Z) to provide insights into risk assessment.</li>
+    <li>Utilized R for data preprocessing, correlation analysis, and dendrogram visualization to improve insurance policy classification.</li>
+    <li>Addressed ethical concerns by ensuring the clustering results were not used for discriminatory pricing.</li>
+  </ul>
+
+  <div class="entry-header">
+    <div>Survival Analysis of Advanced Lung Cancer Patients</div>
+    <div>Fall 2024</div>
+  </div>
+  <ul>
+    <li>Applied Kaplan-Meier survival curves and Cox proportional hazards modeling to analyze key survival predictors.</li>
+    <li>Discovered that age, ECOG performance, and Karnofsky score significantly impacted survival, with women showing better survival rates.</li>
+    <li>Evaluated model performance using Akaike Information Criterion (AIC = 998.5) and Concordance Index (0.639), ensuring proportional hazards assumptions were met.</li>
+    <li>Suggested clinical applications, including risk stratification for targeted treatments, and proposed future research using machine learning.</li>
+  </ul>
+
+  <div class="entry-header">
+    <div>Database Management Systems</div>
+    <div>Fall 2023</div>
+  </div>
+  <ul>
+    <li>Collaborated with a group of two to create a business idea from the business plan to the ERD (Entity Relationship Diagram), to a working database using SQL that was able to answer multiple queries on the data.</li>
+    <li>Operated Tableau to create worksheets, dashboards, and stories on a large data set.</li>
+  </ul>
+
+  <h2>Certifications</h2>
+  <ul>
+    <li>Alteryx Designer (Core Certified)</li>
+  </ul>
+
+  <h2>Technology & Language Skills</h2>
+  <ul>
+    <li><strong>Tech Languages:</strong> Python, Java, R, SQL, HTML, CSS, and JavaScript</li>
+    <li><strong>Spoken Languages:</strong> Bilingual in English and Russian, Intermediate in Spanish</li>
+    <li><strong>Technologies:</strong> Microsoft Office (Excel, Word, PowerPoint, Outlook, OneDrive, Access), Google (Spreadsheets, Docs, Drive, Gmail, Slideshow), Oracle, Visual Studio Code, IntelliJ IDEA, FileZilla, Tableau, and Command line</li>
+  </ul>
+
+  <h2>Experience</h2>
+
+  <div class="entry-header">
+    <div>Brookline Bank, Brookline, MA</div>
+    <div>June 2023 – January 2025</div>
+  </div>
+  <p class="job-title">Teller</p>
+  <ul>
+    <li>Processed 15–35 customer transactions daily, including deposits, withdrawals, and cash exchanges, while delivering attentive and efficient service.</li>
+    <li>Proactively completed courses on technology and fintech, developing a deeper understanding of software selection and fintech partnerships for financial institutions.</li>
+  </ul>
+
+  <div class="entry-header">
+    <div>Pressed Café, Newton, MA</div>
+    <div>May 2022 – January 2023</div>
+  </div>
+  <p class="job-title">Front of House</p>
+  <ul>
+    <li>Processed 100+ orders per month, ensuring accuracy while providing a welcoming and efficient customer experience.</li>
+    <li>Assisted diverse customers and staff by explaining menu items, resolving order issues, and translating for non-English speakers to enhance communication and service.</li>
+  </ul>
+
+  <h2>Leadership Experience</h2>
+
+  <div class="entry-header">
+    <div>Bentley Ballroom Dance Team, Waltham, MA</div>
+    <div>September 2021 – May 2025</div>
+  </div>
+  <p class="job-title">Senior Advisor / President / Coach</p>
+  <ul>
+    <li>Led biweekly dance sessions by choreographing routines, coaching members, and ensuring competition readiness for eight students.</li>
+    <li>Oversaw club operations, including managing a $1,585 budget, coordinating schedules, and directing a nine-member executive board through strategic planning meetings.</li>
+  </ul>
+
+</body>
+</html>
